@@ -3,9 +3,11 @@ kind: Service
 metadata:
   name: goserver-service
 spec:
+  type: ClusterIP
   selector:
     app: goserver
   ports:
   - port: 80
     targetPort: 80
+    nodePort: 30170
     protocol: TCP
