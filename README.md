@@ -8,6 +8,7 @@ kubectl get nodes
 kubectl get pods 
 kubectl get replicasets
 kubectl get services
+kubectl get pvc
 ```
 
 ```bash
